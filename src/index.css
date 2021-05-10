@@ -1,1 +1,21 @@
+:root{
+    --color-green-light: #93c588;
+    --color-green-dark: #45A132;
+    --color-yellow: #ffca1e;
+    --color-gray-dark: rgb(75, 74, 74);
+    --color-gray: gray;
+}
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
