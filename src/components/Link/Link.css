@@ -1,0 +1,37 @@
+.nav-link:link,
+.nav-link:visited{
+    padding: 0.5rem 1.5rem;
+    margin-left: 2rem;
+    border-radius: 100px;
+    text-decoration: none;
+    color: var(--color-gray-dark);
+}
+
+.nav-link:hover,
+.nav-link:active,
+.active{
+    color: white;
+    background-color: var(--color-green-light);
+}
+
+.btn:link,
+.btn:visited{
+    margin-right: auto;
+    padding: 1.2rem 5rem;
+    color: white;
+    background-color: var(--color-green-dark);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.342);
+    transition: all .25s;
+}
+
+.btn:active{
+    transform: scale(0.95);
+}
+
+@media screen and (max-width:992px) {
+    .btn:link,
+    .btn:visited{
+        margin: 0;
+    }
+    
+}
