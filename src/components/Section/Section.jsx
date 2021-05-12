@@ -16,7 +16,7 @@ const Section = ({headerText, children, theme=''}) => {
 
 Section.propTypes = {
     headerText: PropTypes.string,
-    children: PropTypes.element,
+    children: PropTypes.array,
     theme: PropTypes.string
 }
 
