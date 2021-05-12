@@ -1,0 +1,26 @@
+.section{
+    text-align: center;
+    padding: 1rem 0 6rem;
+}
+.section--gray{
+    color: var(--color-green-dark);
+    background-color: var(--color-gray-light);
+}
+.section-header{
+    color: var(--color-green-dark);
+    margin: 4rem auto;
+}
+
+.container{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:1200px) {
+    .container{
+        width: 90%;
+    }
+    
+}
