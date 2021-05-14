@@ -1,0 +1,40 @@
+.card-icon{
+    width: 80px;
+    height: 80px;
+    fill: currentColor;
+}
+
+.icon-round{
+    color: #fff;
+    background-color: var(--color-yellow);
+    padding: 5rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+
+.card-title{
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
+@media screen and (max-width:768px) {
+    .icon-round{
+        padding: 3.5rem;
+    }
+    
+}
+@media screen and (max-width:563px) {
+    .card{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .icon-round{
+        width: fit-content;
+        padding: 7rem;
+        align-self: center;
+    }
+    
+}
