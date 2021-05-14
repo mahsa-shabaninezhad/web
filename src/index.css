@@ -4,6 +4,7 @@
     --color-yellow: #ffca1e;
     --color-gray-dark: rgb(75, 74, 74);
     --color-gray: gray;
+    --color-gray-light: rgb(233, 232, 232);
 }
 
 *{
@@ -18,4 +19,5 @@ html{
 
 body{
     font-size: 1.6rem;
+    color: var(--color-gray-dark);
 }
