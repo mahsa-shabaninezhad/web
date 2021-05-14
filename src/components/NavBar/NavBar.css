@@ -5,7 +5,7 @@
     justify-content: space-between;
     border-top: 2rem solid var(--color-green-dark);
     border-bottom: 2px solid rgb(218, 217, 217);
-    padding: 1.5rem 10rem;
+    padding: 2rem 10rem;
 }
 
 .toggle{
